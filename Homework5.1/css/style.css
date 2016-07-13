@@ -51,6 +51,7 @@ ul {
 	border-right: 1px solid #60b5ed;
 }
 
+
 .flag{
 	display: inline-block;
 	vertical-align: middle;
@@ -80,6 +81,11 @@ li a:hover{
 	color: white;
 	background: #4ca9d9;
 }
+
+ li:nth-child(6):hover>a{
+	background:#074c89;
+    }
+
 
 .container{
 	display: block;
@@ -145,7 +151,7 @@ a .app{
 .fb_text{
 	vertical-align: top;
 	display: inline-block;
-	padding: 8px;
+	padding: 7px 0px 12px 25px;
 	border-left: 1px solid #4e69ac;
 }
 
